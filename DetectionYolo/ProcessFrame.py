@@ -4,7 +4,7 @@ from ultralytics import YOLO
 
 def process_video(video_path, output_dir):
     # Load YOLOv8 model (custom trained)
-    model = YOLO('/Models/zm.pt')
+    model = YOLO('Models/zm.pt')
     
     # Load video
     cap = cv2.VideoCapture(video_path)
