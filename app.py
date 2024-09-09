@@ -31,7 +31,7 @@ def generate_images_and_matrices(camera_data, output_dir="/app/data/InvisibleCit
     print("Matrices and images created successfully.")
 
 # Main function to run the entire process
-def main(input_json_path):
+def main(input_json_path,op_folder ):
     # Load camera data from the input file
     camera_data = load_input_file(input_json_path)
 
