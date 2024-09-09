@@ -1,0 +1,8 @@
+numpy
+Pillow
+scipy
+torchvision
+timm
+torch
+ultralytics
+opencv-python-headless
